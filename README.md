@@ -3,11 +3,11 @@
 
 静态资源目录
 ```
-D:\WORK\go\src\work\test\ui
-D:\WORK\go\src\work\test\ui\page
-D:\WORK\go\src\work\test\ui\page\index.html
-D:\WORK\go\src\work\test\ui\page\main.wasm
-D:\WORK\go\src\work\test\ui\page\wasm.js
+D:\WORK\go\src\work\test\static\ui
+D:\WORK\go\src\work\test\static\ui\page
+D:\WORK\go\src\work\test\static\ui\page\index.html
+D:\WORK\go\src\work\test\static\ui\page\main.wasm
+D:\WORK\go\src\work\test\static\ui\page\wasm.js
 ```
 http://127.0.0.1:8080/ui/index.html 打开index.html
 ```
