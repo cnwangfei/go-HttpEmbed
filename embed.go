@@ -15,7 +15,7 @@ type Fs struct {
 func (f Fs) Open(name string) (fs.File, error) {
 	// 拼接相对路径
 	fullName := filepath.Join(f.Path, filepath.FromSlash(path.Clean("/"+name)))
-	// 修改http路径中的/为\
+	// 修改http路径中的\为/
 	fullName = filepath.ToSlash(fullName)
 	//fmt.Println(fullName)
 	fs, err := f.FS.Open(fullName)
